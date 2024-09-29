@@ -1,0 +1,43 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 4em;
+	padding-bottom: 2em;
+	max-height: 35vh;
+	background: linear-gradient($reverse-bg-gradient);
+	ul {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		li {
+			margin: 2em 0;
+			background: linear-gradient($links-gradient);
+			text-align: center;
+			cursor: pointer;
+			a {
+				display: block;
+				padding: 0.8em 0;
+				width: 8em;
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	footer {
+		padding-top: 8em;
+		ul {
+			li {
+				margin: 2em;
+				a {
+					width: 10em;
+				}
+			}
+		}
+	}
+}

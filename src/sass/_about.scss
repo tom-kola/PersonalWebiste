@@ -1,0 +1,32 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+.about {
+	background: linear-gradient($bg-gradient);
+	h2 {
+		padding: 1.6em 0;
+		text-align: center;
+	}
+	h3 {
+		padding: 1.6em 0.3em;
+		text-align: center;
+	}
+	.about__img {
+		@include aboutImg;
+	}
+	p {
+		margin: 0 auto;
+		padding: 2em;
+		max-width: 50em;
+	}
+	ul {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		max-width: 50%;
+		li {
+			@include skill;
+		}
+	}
+}

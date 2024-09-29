@@ -1,0 +1,111 @@
+@use "./variables" as *;
+
+#web--title {
+	font-family: $tertiary-font-family;
+	font-size: 2.6rem;
+	font-weight: 400;
+	letter-spacing: 3px;
+	color: $nav-font-color;
+}
+h2 {
+	font-family: $secondary-font-family;
+	font-size: 3rem;
+	color: $main-font-color;
+	span {
+		color: $accent-font-color;
+	}
+}
+h2#header__text--title {
+	font-family: $primary-font-family;
+	font-size: 5rem;
+}
+h2#header__text--animate {
+	margin: 0 auto;
+	font-size: 3rem;
+	span {
+		color: $main-font-color;
+	}
+}
+
+h3 {
+	font-family: $secondary-font-family;
+	font-size: 2.2rem;
+	color: $main-font-color;
+	span {
+		color: $accent-font-color;
+	}
+}
+h4 {
+	text-align: center;
+	font-family: $secondary-font-family;
+	font-size: 2rem;
+	color: $accent-font-color;
+}
+p {
+	font-family: $primary-font-family;
+	font-size: 1.6rem;
+	letter-spacing: 1px;
+	line-height: 180%;
+	text-align: justify;
+	color: $main-font-color;
+}
+p#msg-status {
+	letter-spacing: 2px;
+	font-family: $tertiary-font-family;
+	font-size: 2rem;
+	color: $main-font-color;
+}
+p#copy {
+	margin-top: 1em;
+	font-family: $secondary-font-family;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+}
+a {
+	text-decoration: none;
+	font-family: $tertiary-font-family;
+	font-size: 1.4rem;
+	letter-spacing: 2px;
+	color: $nav-font-color;
+}
+.modal__text li {
+	font-family: $secondary-font-family;
+	font-size: 1.6rem;
+	color: $main-font-color;
+}
+
+@media (min-width: 1024px) {
+	h2 {
+		font-size: 3.6rem;
+	}
+	h2#header__text--title {
+		margin: 0;
+		font-size: 5rem;
+		letter-spacing: 3px;
+	}
+	h2#header__text--animate {
+		margin: 0;
+		font-size: 4rem;
+	}
+	h3 {
+		font-size: 2.8rem;
+	}
+	h4 {
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1.6rem;
+	}
+	p#msg-status {
+		font-size: 2rem;
+	}
+	p#copy {
+		font-size: 1.4rem;
+	}
+	a {
+		font-size: 1.8rem;
+	}
+	.modal__text li {
+		font-size: 1.6rem;
+	}
+}

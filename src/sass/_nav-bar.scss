@@ -1,0 +1,44 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5%;
+	height: 15vh;
+	background-color: $main-bg-color;
+	h1 {
+		padding: 2em 0.6em 0.6em 0%;
+	}
+	ul {
+		justify-self: flex-end;
+		display: none;
+		margin-right: 10%;
+		li {
+			padding: 6em 2em 2em 2em;
+			a {
+				transition: 0.3s;
+			}
+			a:hover {
+				color: $accent-font-color;
+			}
+		}
+	}
+	.fa-bars {
+		margin: 1.7em 10% 2em 2em;
+		font-size: 3rem;
+		color: $nav-font-color;
+		cursor: pointer;
+	}
+}
+
+@media (min-width: 1024px) {
+	nav {
+		ul {
+			display: flex;
+		}
+		.fa-bars {
+			display: none;
+		}
+	}
+}

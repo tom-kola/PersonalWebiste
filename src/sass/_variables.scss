@@ -1,0 +1,20 @@
+$primary-font-family: "Open Sans", sans-serif;
+$secondary-font-family: "IBM Plex Mono", sans-serif;
+$tertiary-font-family: "Bebas Neue", sans-serif;
+$main-font-color: #b4b4b4;
+$nav-font-color: #fff;
+$accent-font-color: #078597;
+$header_bg-color: #000;
+$main-bg-color: #131315;
+$bg-gradient: 0deg, #3d3d3d 0%, #131315 100%;
+$reverse-bg-gradient: 0deg, #131315 0%, #3d3d3d 100%;
+$modal-gradient: linear-gradient(
+	0deg,
+	rgb(61, 61, 61) 0%,
+	rgb(24, 24, 26) 100%
+);
+$links-gradient: 90deg, transparent 10%, rgba(49, 49, 49, 0.6) 50%,
+	transparent 90%;
+$button-gradient: 90deg, rgba(1, 78, 89, 0.6) 18%, rgba(7, 133, 151, 0.6) 100%;
+$card-gradient: 0deg, #1b1b1b 0%, #333333 100%;
+$web-shadow-color: rgba(24, 24, 26, 0.8);
