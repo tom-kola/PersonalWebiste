@@ -122,7 +122,9 @@
 		}
 	}
 }
-
+#unvisible{
+	display: none;
+}
 @media (max-width: 458px) {
 	.modal__text--buttons {
 		ul {

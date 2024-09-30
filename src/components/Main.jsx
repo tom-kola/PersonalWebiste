@@ -12,6 +12,7 @@ import { CARDS_DATA, PROJECT_DETAILS, PROJECT_TITLES } from "../data-pl";
 const Main = () => {
 	const [showModal, setShowModal] = useState(false);
 	const [selectedProject, setSelectedProject] = useState();
+	
 
 	let modalContent;
 
@@ -75,7 +76,7 @@ const Main = () => {
 										{PROJECT_TITLES.btn1}
 									</Link>
 								</li>
-								<li>
+								<li id={selectedProject === "card3" ? "unvisible" : ""}>
 									<Link
 										to={
 											PROJECT_DETAILS[selectedProject]
@@ -104,23 +105,22 @@ const Main = () => {
 				</h2>
 				<div className="cards">
 					<Card
-						whileHover={{ scale: 0.95 }}
-						initial={{ scale: 0.9 }}
+						whileHover={{ scale: 0.95, opacity:1 }}
+						initial={{ scale: 0.9, opacity:0.7 }}
 						{...CARDS_DATA["card1"]}
 						showModal={() => handleSelect("card1", !showModal)}
-						disabled={"blur"}
 					/>
 					<Card
-						whileHover={{ scale: 1.05 }}
+						whileHover={{ scale: 1.05, opacity:1 }}
+						initial={{ opacity: 0.8, opacity:0.7 }}
 						showModal={() => handleSelect("card2", !showModal)}
 						{...CARDS_DATA["card2"]}
 					/>
 					<Card
-						whileHover={{ scale: 0.95 }}
-						initial={{ scale: 0.9 }}
+						whileHover={{ scale: 0.95, opacity:1 }}
+						initial={{ scale: 0.9, opacity: 0.7}}
 						{...CARDS_DATA["card3"]}
 						showModal={() => handleSelect("card3", !showModal)}
-						disabled={"blur"}
 					/>
 
 					<Modal

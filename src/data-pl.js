@@ -34,7 +34,7 @@ export const PROJECT_DETAILS = {
 		tech3: "JAVASCRIPT",
 		tech4: "SEO",
 		tech5: "RWD",
-		repo: "",
+		repo: "https://github.com/tom-kola/BusinessWebsite",
 		website: "https://www.oferta.tomkola.pl",
 	},
 	card2: {
@@ -72,10 +72,9 @@ export const PROJECT_DETAILS = {
 		tech3: "SEO",
 		tech4: "RWD",
 		tech5: "EMAILJS",
-		repo: "https://github.com/tom-kola/MemoryGame",
-		website: "https://www.tomkola.pl",
+		repo: "https://github.com/tom-kola/PersonalWebiste",
+		website: "",
 	},
-	
 };
 export const PROJECT_TITLES = {
 	descriptionTitle: "Description",

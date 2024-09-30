@@ -53,23 +53,8 @@
 	min-height: 45em;
 	box-shadow: 5px 5px 10px;
 	border-radius: 1em;
-	// background: linear-gradient($card-gradient);
 	background-size: cover;
 	background-position: center;
-	h3 {
-		font-family: $tertiary-font-family;
-		padding: 1em;
-		font-size: 2.6rem;
-		letter-spacing: 3px;
-		color: $main-font-color;
-	}
-	p {
-		padding: 0 2em;
-		font-family: $secondary-font-family;
-		font-size: 1.6rem;
-		text-align: justify;
-		color: $main-font-color;
-	}
 	ul {
 		display: flex;
 		justify-content: space-around;
