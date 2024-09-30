@@ -9,6 +9,7 @@ https://tomkola.pl
 
 <ul>
 <li>React</li>
+<li>SCSS</li>
 </ul>
 
 ## Features
