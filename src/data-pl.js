@@ -25,7 +25,7 @@ export const PROJECT_DETAILS = {
 		image2: ofertaTomkola3,
 		description:
 			"Feel free to check out the website I’ve developed. Discover why a website is essential for your business and take a look at the services I offer.",
-		feature1: "This is onne page webiste",
+		feature1: "This is one page website",
 		feature2: "It has a modern design",
 		feature3: "Scroll animations are included here",
 		feature4: "My offer is available here",
